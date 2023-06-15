@@ -415,7 +415,7 @@ border: 1px solid transparent;
             margin-bottom: 72px;
 }
 .main-info {
-    padding: 32px 16px;
+    padding: 32px 0;
     text-align: center;
 }
 
@@ -570,6 +570,7 @@ margin-bottom: 16px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+    font-weight: 500;
 }
 
 .footer-list {
@@ -582,6 +583,11 @@ margin-bottom: 16px;
 .footer-item {
     width: 40px;
     height: 40px;
+}
+
+.footer-item:hover,
+.footer-item:focus {
+    background-color: #31d0aa;
 }
 
 .footer-link {
@@ -602,6 +608,11 @@ align-items: center;
 justify-content: center;
 margin-top: 140px;
 margin-bottom: 132px;
+fill: #f4f4fd;
+}
+
+.logo-text {
+    margin-right: 120px;
 }
 
 .backdrop {
