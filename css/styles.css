@@ -463,14 +463,9 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .soc-icon-team {
-    fill: #F4F4FD;
     width: 40px;
     height: 40px;
-    border-radius: 50%;
-    gap: 24px;
-    background-color: #4D5AE5;
-    list-style-type: none;
-    
+
 }
 
 .team-soc {
@@ -642,8 +637,6 @@ background-color: #31d0aa;
 display: flex;
 align-items: center;
 justify-content: center;
-margin-top: 140px;
-margin-bottom: 132px;
 fill: #f4f4fd;
 }
 
