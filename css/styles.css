@@ -5,6 +5,7 @@
     --logo-color: #4d5ae5;
     --button-color: #F4F4FD;
     --hover-color: #404BBF;
+    --modal-color: #FCFCFC;
 }
 
 
@@ -228,10 +229,6 @@ width: 1158px;
     gap: 24px;
     justify-content: center;
     margin-bottom: 72px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-            border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-            box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-     
 }
 
 
@@ -247,7 +244,7 @@ width: 1158px;
         border: 1px solid #E7E9FC;
         border-radius: 4px;
         padding: 12px 24px; 
-        transition: olor 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
             background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
             border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
             box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -278,6 +275,14 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
 .product-item {
 transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.product-item:hover,
+.product-item:focus {
+transform: translateY(0%)
+}
+
+
+
 
 .link {
     display: block;
@@ -357,7 +362,8 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.projects-item:hover .products-cover-text {
+.projects-item:hover
+.products-cover-text {
     transform: translate(0%);
 }
 
@@ -530,13 +536,13 @@ border-radius: 0px 0px 4px 4px;
     border-radius: 4px;
     box-sizing: border-box;
     color: #8E8F99;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customer-item-icon {
-    fill: currentColor;
+    fill: var(--button-color);
 }
+
 
    .customer-link:hover,
    .customer-link:focus {
@@ -641,7 +647,7 @@ background-color: #31d0aa;
 display: flex;
 align-items: center;
 justify-content: center;
-fill: #f4f4fd;
+fill: var(--button-color);
 }
 
 .logo-text {
@@ -689,13 +695,14 @@ fill: #f4f4fd;
     background-color: #E7E9FC;
     border: 1px solid rgba(0, 0, 0, 0.1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
     background-color: #404bbf;
     border: none;
-    fill: #FFFFFF;
+    fill: var(--second-text-color);
 }
 
 .icon-button {
