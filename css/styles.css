@@ -277,11 +277,11 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
-.product-item:hover .product-cover-text {
+.product-item:hover .products-cover-text {
     transform: translateY(0%);
 }
 
-.product-item:focus .product-cover-text {
+.product-item:focus .products-cover-text {
     transform: translateY(0%);
 }
 
