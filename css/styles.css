@@ -228,7 +228,7 @@ width: 1158px;
     gap: 24px;
     justify-content: center;
     margin-bottom: 72px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
             border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
             box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
      
@@ -505,8 +505,6 @@ border-radius: 0px 0px 4px 4px;
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        margin-bottom: 120px;
-        margin-top: 120px;
         color: #2e2f42;
         margin-bottom: 72px;
 }
