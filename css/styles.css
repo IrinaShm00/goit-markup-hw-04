@@ -657,7 +657,7 @@ background-color: #31d0aa;
 display: flex;
 align-items: center;
 justify-content: center;
-fill: var(--second-text-colorcolor);
+fill: var(--button-color);
 }
 
 .logo-text {
@@ -722,6 +722,10 @@ fill: var(--second-text-colorcolor);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.icon-button:hover,
+.icon-button:focus {
+    fill: #ffffff;
+}
 
 .is-hidden {
 visibility: hidden;
