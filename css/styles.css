@@ -657,7 +657,7 @@ background-color: #31d0aa;
 display: flex;
 align-items: center;
 justify-content: center;
-fill: var(--button-color);
+fill: var(--second-text-colorcolor);
 }
 
 .logo-text {
