@@ -62,8 +62,6 @@ ul {
 /* header */
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -174,7 +172,9 @@ font-style: normal;
  background-repeat: no-repeat;
  background-position: center;
  background-size: cover;
+ 
  max-width: 1440px;
+ margin: 0 auto;
 }
 
 .hero-container {
@@ -474,6 +474,7 @@ border-radius: 0px 0px 4px 4px;
     display: flex;
     gap: 24px;
     justify-content: center;
+    list-style: none;
 }
 
 .soc-icon-team {
@@ -704,11 +705,13 @@ fill: var(--button-color);
     background-color: #E7E9FC;
     border: 1px solid rgba(0, 0, 0, 0.1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: #2E2F42;
     
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
+    color: #2E2F42;
     background-color: #404bbf;
     border: none;
     fill: var(--second-text-color);
