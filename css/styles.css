@@ -59,7 +59,7 @@ ul {
 }
 
 
-/* header */
+/******** HEADER*********/
 
 .header {
     border-bottom: 1px solid #e7e9fc;
@@ -111,13 +111,11 @@ ul {
 
 }
 
-
 .header-menu-link:hover, 
 .header-menu-link:focus {
 color: #404bbf;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 .address {
 font-style: normal;
@@ -164,7 +162,7 @@ font-style: normal;
     background-color: #404bbf;
 }
 
-/* hero */
+/********** HERO *********/
 
 .hero {
  background-color: var(--title-color);
@@ -227,7 +225,7 @@ width: 1158px;
     background: var(--hover-color);
 }
 
-/* buttons */
+/*********** BUTTONS ************/
 
 .buttons-menu {
     display: flex;
@@ -269,6 +267,37 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
 }
 
 
+
+
+/********** BENEFITS *********/
+
+.benefits {
+    padding: 120px 0;
+}
+
+.benefits-list {
+    display: flex;
+    gap: 24px;
+}
+
+.benefits-item {
+
+    width: calc((100% - 72px) / 4);
+}
+
+.benefits-item-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4F4FD;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
+}
+
+/*************** PRODUCTS **************/
+
 .projects-menu {
     display: flex;
     flex-wrap: wrap;
@@ -305,35 +334,18 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: block;
 }
 
-
-/* benefits */
-
-.benefits {
-    padding: 120px 0;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
-
-.benefits-list {
-    display: flex;
-    gap: 24px;
-}
-
-.benefits-item {
-    
-  width: calc((100% - 72px) / 4);
-}
-
-.benefits-item-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #F4F4FD;
-    border-radius: 4px;
-    width: 264px;
-    height: 112px;
-    margin-bottom: 8px;
-}
-
-/* products */
 
 .main {
     padding-top: 96px;
@@ -383,18 +395,6 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
 
 .products-cover-title {
     font-weight: 500;
@@ -435,9 +435,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
-
-
-/* team */
+/***************** TEAM ******************/
 
 .team {
     background: #F4F4FD;
@@ -510,7 +508,7 @@ border-radius: 0px 0px 4px 4px;
     background-color: #404bbf;
 }
 
-/*customers*/
+/************** CUSTOMERS ********************/
 
 
 .customer {
@@ -567,7 +565,7 @@ border-color: #404BBF;
 
    }
 
-/* footer */
+/*************** FOOTER *****************/
 
 .footer {
 background-color: var(--title-color);
@@ -669,6 +667,8 @@ fill: var(--button-color);
 .logo-text {
     margin-right: 120px;
 }
+
+/************* MODAL **************/
 
 .backdrop {
     position: fixed;
